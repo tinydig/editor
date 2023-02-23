@@ -1,0 +1,31 @@
+{
+    "name": "editor",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode=production",
+        "watch": "webpack --mode=development --watch",
+        "serve": "webpack serve --mode=development"
+    },
+    "author": {
+		"name": "Tinydig",
+		"email": "tinydig@protonmail.com",
+		"url": "https://github.com/tinydig"
+	},
+    "license": "MIT",
+    "devDependencies": {
+        "css-loader": "^6.7.3",
+        "html-webpack-plugin": "^5.5.0",
+        "less": "^4.1.3",
+        "less-loader": "^11.1.0",
+        "mini-css-extract-plugin": "^2.7.2",
+        "style-loader": "^3.3.1",
+        "ts-loader": "^9.4.2",
+        "typescript": "^4.9.5",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.1",
+        "webpack-dev-server": "^4.11.1"
+    }
+}
